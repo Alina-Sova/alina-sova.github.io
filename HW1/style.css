@@ -1,0 +1,37 @@
+body{
+  background-color: #f4f3f3;
+  text-align: center;
+  font-family: Arial;
+  margin-top: 50px;
+}
+h1{
+  text-transform: uppercase;
+}
+img{
+  width: 150px;
+  border: 1px solid black;
+}
+div{
+  width: 550px;
+  height: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+.student{
+  padding-left: 0px;
+}
+p{
+  padding-left: 50px;
+}
+a{
+  padding-left: 50px;
+  font-style: italic;
+}
+hr{
+  background-color: #dddedd;
+  height: 1px;
+  border: none;
+}
+.line{
+  background-color: #8d8f8c;
+}
