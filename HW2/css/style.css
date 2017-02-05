@@ -1,0 +1,79 @@
+body{
+  background-color: #f9f9f9;
+  font-family: Arial;
+  font-size: 14px;
+  color: grey;
+}
+a{
+  text-decoration: none;
+}
+.menu>a{
+  margin: 0 30px 0 15px;
+  padding: 11px 15px 11px 15px;
+  color: white;
+  font-size: 15px;
+}
+.menu>a:hover{
+  background: #444444;
+  box-shadow: 10px 0px 20px -12px rgba(255,255,255,1),
+  -10px 0px 20px -12px rgba(255,255,255,1);
+}
+ul{
+  float: left;
+}
+li{
+  border: 1px solid grey;
+  margin-top: -1px;
+  height: 40px;
+  width: 240px;
+}
+li>a{
+  display: block;
+  padding: 10px 0 8px 30px;
+  color: grey;
+}
+li>a:hover{
+  background-color: #f9f9f9;
+  padding-left: 40px;
+}
+.tekst{
+  margin-left: 320px;
+  padding-top: 460px;
+}
+.box{
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 50px 45px 80px;
+  width: 970px;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.51);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.51);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.51);
+}
+.menu{
+  margin: 30px 0 50px;
+}
+.panel{
+  margin-bottom: -32px;
+}
+.bicycle{
+  float: right;
+  width: 677px;
+  border: 1px solid grey;
+}
+.footer{
+  margin-top: 60px;
+    position: relative;
+}
+.footer>a{
+  margin: 0 60px 0 30px;
+  position: static;
+  color: grey;
+}
+.footer>a:hover{
+  text-decoration: underline;
+}
+.copy{
+  position: absolute;
+  float: right;
+  margin: -12px 0 0 780px;
+}
