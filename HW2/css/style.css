@@ -32,7 +32,7 @@ header a{
 }
 header a:hover{
   line-height: normal;
-  padding: 0 14px;  
+  padding: 0 14px;
   line-height: 40px;
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
@@ -69,18 +69,16 @@ article img{
   border: 1px solid grey;
 }
 footer li{
-  display: inline;
+  display: inline-block;
   line-height: 40px;
 }
 footer{
   height: 40px;
   background: #e1e1e1;
   margin-top: 60px;
-  position: relative;
 }
 footer a{
   margin: 0 60px 0 30px;
-  position: static;
   color: grey;
 }
 footer a:hover{
