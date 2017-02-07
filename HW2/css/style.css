@@ -14,10 +14,8 @@ section{
   box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.51);
 }
 nav{
+  background-image: url(../img/panel.png);
   margin: 30px 0 50px;
-}
-nav img{
-  margin-bottom: -32px;
 }
 header li{
   display: inline;
@@ -25,18 +23,17 @@ header li{
   height: 100%;
 }
 header a{
-  display: block;
-  display: inline;
-  height: 50px;
-  width: 100px;
+  display: inline-block;
   margin: 0 30px 0 15px;
-  padding: 10px 15px 13px 15px;
+  padding: 0 15px;
   color: white;
-  line-height: normal;
-  font-size: 15px;
+  line-height: 40px;
+  font-size: 16px;
 }
 header a:hover{
   line-height: normal;
+  padding: 0 14px;  
+  line-height: 40px;
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
   background: #444444;
