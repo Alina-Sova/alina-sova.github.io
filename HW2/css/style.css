@@ -1,46 +1,10 @@
 body{
   background-color: #f9f9f9;
+  color: grey;
   font-family: Arial;
   font-size: 14px;
-  color: grey;
 }
-a{
-  text-decoration: none;
-}
-.menu>a{
-  margin: 0 30px 0 15px;
-  padding: 11px 15px 11px 15px;
-  color: white;
-  font-size: 15px;
-}
-.menu>a:hover{
-  background: #444444;
-  box-shadow: 10px 0px 20px -12px rgba(255,255,255,1),
-  -10px 0px 20px -12px rgba(255,255,255,1);
-}
-ul{
-  float: left;
-}
-li{
-  border: 1px solid grey;
-  margin-top: -1px;
-  height: 40px;
-  width: 240px;
-}
-li>a{
-  display: block;
-  padding: 10px 0 8px 30px;
-  color: grey;
-}
-li>a:hover{
-  background-color: #f9f9f9;
-  padding-left: 40px;
-}
-.tekst{
-  margin-left: 320px;
-  padding-top: 460px;
-}
-.box{
+section{
   background-color: #ffffff;
   margin: 0 auto;
   padding: 50px 45px 80px;
@@ -49,31 +13,84 @@ li>a:hover{
   -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.51);
   box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.51);
 }
-.menu{
+nav{
   margin: 30px 0 50px;
 }
-.panel{
+nav img{
   margin-bottom: -32px;
 }
-.bicycle{
+header li{
+  display: inline;
+  width: 100%;
+  height: 100%;
+}
+header a{
+  display: block;
+  display: inline;
+  height: 50px;
+  width: 100px;
+  margin: 0 30px 0 15px;
+  padding: 10px 15px 13px 15px;
+  color: white;
+  line-height: normal;
+  font-size: 15px;
+}
+header a:hover{
+  line-height: normal;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  background: #444444;
+}
+ article ul{
+  float: left;
+}
+article li{
+  border: 1px solid grey;
+  margin-top: -1px;
+  height: 41px;
+  width: 240px;
+}
+article a {
+  display: block;
+  line-height: normal;
+  padding: 10px 0 16px 30px;
+  color: grey;
+}
+ article a:hover{
+  background-color: #f9f9f9;
+  padding-left: 40px;
+}
+article p{
+  margin-left: 340px;
+  padding-top: 440px;
+  line-height: 25px;
+}
+
+article img{
   float: right;
-  width: 677px;
+  padding: 50px 80px;
   border: 1px solid grey;
 }
-.footer{
-  margin-top: 60px;
-    position: relative;
+footer li{
+  display: inline;
+  line-height: 40px;
 }
-.footer>a{
+footer{
+  height: 40px;
+  background: #e1e1e1;
+  margin-top: 60px;
+  position: relative;
+}
+footer a{
   margin: 0 60px 0 30px;
   position: static;
   color: grey;
 }
-.footer>a:hover{
+footer a:hover{
   text-decoration: underline;
 }
-.copy{
-  position: absolute;
+footer p{
+  line-height: 40px;
+  margin-right: 25px;
   float: right;
-  margin: -12px 0 0 780px;
 }
