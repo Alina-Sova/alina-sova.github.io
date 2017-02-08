@@ -18,12 +18,10 @@ nav{
   margin: 30px 0 50px;
 }
 header li{
-  display: inline;
-  width: 100%;
-  height: 100%;
+  display: inline-block;
 }
 header a{
-  display: inline-block;
+  display: block;
   margin: 0 30px 0 15px;
   padding: 0 15px;
   color: white;
@@ -31,15 +29,19 @@ header a{
   font-size: 16px;
 }
 header a:hover{
-  line-height: normal;
   padding: 0 14px;
   line-height: 40px;
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
   background: #444444;
 }
+article{
+  position: relative;
+  overflow: hidden;
+}
  article ul{
   float: left;
+  padding-top: 1px;
 }
 article li{
   border: 1px solid grey;
@@ -50,7 +52,7 @@ article li{
 article a {
   display: block;
   line-height: normal;
-  padding: 10px 0 16px 30px;
+  padding: 10px 0 15px 30px;
   color: grey;
 }
  article a:hover{
@@ -58,8 +60,10 @@ article a {
   padding-left: 40px;
 }
 article p{
-  margin-left: 340px;
-  padding-top: 440px;
+  clear: right;
+  float: right;
+  width: 65%;
+  padding-top: 30px;
   line-height: 25px;
 }
 
@@ -69,7 +73,7 @@ article img{
   border: 1px solid grey;
 }
 footer li{
-  display: inline-block;
+  display: inline;
   line-height: 40px;
 }
 footer{
