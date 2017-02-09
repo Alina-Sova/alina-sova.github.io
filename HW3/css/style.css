@@ -1,0 +1,46 @@
+section{
+  background: url(../img/back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 830px;
+  width: 960px;
+  color: #e6e6e6;
+  font-size: 15px;
+  font-family: Tahoma;
+}
+header{
+  padding: 60px 60px 10px;
+}
+header p{
+  float: left;
+}
+p{
+  display: block;
+  font-size: 10px;
+}
+.contacts{
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+.main{
+  padding: 0 60px;
+  clear: both;
+}
+figure{
+  float: left;
+  text-align: center;
+  height: 250px;
+  width: 277px;
+}
+figure img {
+  border: 2px solid #878787;
+  }
+  figcaption{
+    text-align: center;
+  }
+  footer{
+    padding: 90px 60px 3px;
+    clear: both;
+    text-align: center;
+  }
