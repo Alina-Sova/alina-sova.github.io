@@ -1,29 +1,27 @@
 section{
   background: url(../img/back.jpg);
-
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  height: 1150px;
+  padding: 0 100px;
   color: #e6e6e6;
   font-size: 15px;
   font-family: Tahoma;
-  padding: 0 100px;
 }
 header{
-  height: 190px;
+  height: 14%;
   padding: 0 5%;
 }
 header>img{
-  position: absolute;
-  z-index: 2;
   float: left;
-  margin-right: 130px;
-  height: 190px;
+  margin-left: 12%;
+  height: 170px;
+  color: #2d2d2d;
 }
 header figure{
   position: absolute;
   z-index: 1;
-  margin-top: 117px;
+  margin-top: 7%;
   float: left;
 }
 p{
@@ -35,24 +33,26 @@ p{
   float: right;
   position: relative;
   overflow: hidden;
-  margin-top: 120px;
+  margin: 10% 2% 0;
 }
 .main{
+  padding: 0 4%;
   clear: both;
 }
 main figure{
   float: left;
   text-align: center;
-  margin: 0 5% 10%;
+  margin: 0 1% 11%;
 }
 main figure img {
+  height: 220px;
   border: 2px solid #878787;
   }
   figcaption{
     text-align: center;
   }
   footer{
-    padding-top: 250px;
+    padding: 15% 0 4%;
     clear: both;
     text-align: center;
   }
