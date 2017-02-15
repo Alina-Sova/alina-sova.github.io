@@ -16,7 +16,7 @@ section{
   box-shadow: 0px 7px 16px 1px rgba(0,0,0,0.75);
 }
 header{
-  padding-top: 20px;
+  padding-top: 25px;
 }
 .clearfix:after{
   content: '';
@@ -44,7 +44,7 @@ header{
   display: inline-block;
   float: right;
   clear: right;
-  padding: 23px 23px 0;
+  padding: 23px 23px 7px;
 }
 .contries li{
   display: inline-block;
