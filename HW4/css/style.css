@@ -11,9 +11,9 @@ section{
   background: #ffffff;
   font: 13px Tahoma;
   color: #128aa7;
-  -webkit-box-shadow: 0px 7px 16px 1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 7px 16px 1px rgba(0,0,0,0.75);
-  box-shadow: 0px 7px 16px 1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 4px 2px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 4px 2px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 2px 1px rgba(0,0,0,0.75);
 }
 header{
   padding-top: 25px;
@@ -31,9 +31,8 @@ header{
 }
 .logo figcaption{
   position: absolute;
-  text-align: center;
   top: 95px;
-  left: 68px;
+  left: 93px;
 }
 .contacts{
   float: right;
