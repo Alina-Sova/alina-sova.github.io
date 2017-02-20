@@ -1,0 +1,23 @@
+table{
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+tr{
+  height: 20px;
+}
+td{
+  border: 3px solid #000;
+  width: 90px;
+}
+.yellow{
+  background-color: yellow;
+}
+.blue{
+  background-color: blue;
+}
+.red{
+  background-color: red;
+}
+.black{
+  background-color: black;
+}
