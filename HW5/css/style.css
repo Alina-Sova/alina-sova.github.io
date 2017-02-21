@@ -12,19 +12,18 @@ body{
   color: #fff;
 }
 nav{
-  padding-left: 38%;
+  padding-left: 510px;
   height: 36px;
-  background-image: url(../img/nav.png);;
+  background-image: url(../img/nav.png);
 }
 li{
-    float: left;;
+    float: left;
     padding-right: 14px;
 }
 a{
   display: block;
   padding: 10px;
   line-height: 16px;
-  font-size: 14px;
   color: #60b5ed;
 }
 a:hover{
@@ -34,7 +33,6 @@ a:hover{
 .menu li{
   margin-top: 5px;
   height: 27px;
-  width: 170px;
 }
 .menu li:first-child{
   border-left: 1px solid #56a2dc;
@@ -43,25 +41,35 @@ a:hover{
   float: left;
   margin: -4px 11px;
 }
+.menu .right{
+  border: 1px solid #4eabda;
+  height: 15px;
+  margin-top: -6px;
+  margin-left: -1px;
+  width: 171px;
+  background: linear-gradient(to top, #2f7bc5, #4daada);
+}
 .menu a{
   margin-top: -5px;
   height: 14px;
-  width: 171px;
+  width: 150px;
   color: white;
 }
 .menu a:hover{
   background: linear-gradient(to top, #2f7bc5, #4daada);
   border: 1px solid #4eabda;
   height: 15px;
-  margin-top: -6px;
-  margin-left: -1px;
+  margin: -6px -1px 0;
 }
-span{
+nav span{
   text-decoration: underline;
 }
+nav span:hover{
+  text-decoration: none;
+}
 main{
-  margin: 50% auto;
-  width: 500px;
+  margin: 17% auto;
+  width: 555px;
 }
 h1{
   font-size: 24px;
@@ -69,13 +77,53 @@ h1{
   margin-bottom: 2px;
   text-align: center;
   font-weight: normal;
-  background: rgba(65, 67, 57, 0.5);
+  background: rgba(10, 15, 20, 0.65);
 }
-section{
+form{
   padding: 20px;
   text-align: center;
-  background: rgba(65, 67, 57, 0.5);
+  background: rgba(10, 15, 20, 0.65);
   color: #ccc;
+}
+button{
+  height: 35px;
+  width: 260px;
+  padding-top: 0px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to top, #31447c, #3c5598);
+  -webkit-box-shadow: inset 0px 2px 0px 0px rgba(120,137,183,0.5);
+  -moz-box-shadow: inset 0px 2px 0px 0px rgba(120,137,183,0.5);
+  box-shadow: inset 0px 2px 0px 0px rgba(120,137,183,0.5);
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 32px;
+  font-stretch: semi-condensed;
+  color: #fff;
+  cursor: pointer;
+}
+.log{
+  display: inline-block;
+  height: 35px;
+  padding-left: 36px;
+  border-left: 1px solid #4d65a3;
+}
+.f{
+  display: inline-block;
+  float: left;
+  height: 35px;
+  padding: 0 15px 0 10px;
+  font-size: 26px;
+  border-right: 1px solid #203a75;
+}
+.with{
+  font-weight: 400;
+  font-stretch: normal;
+}
+.arrow{
+  display: inline-block;
+  float: right;
+  padding: 0 20px;
 }
 .line:after{
     content: '';
@@ -97,14 +145,10 @@ section{
     background: #666;
     border-bottom: 1px solid #000;
 }
-hr{
-  height: 1px;
-  width: 10px;
-}
 div{
   padding: 10px;
 }
-.transform{
+input[type="text"], [type="email"], [type="password"]{
   height: 35px;
   width: 260px;
   padding-left: 20px;
@@ -113,8 +157,13 @@ div{
   color: #ccc;
 }
 .transform:hover{
+  border: 1px solid #689bcc;
+  margin: -1px;
+}
+.transform:focus{
   height: 33px;
   width: 258px;
+  margin: -1px;
   background: #1b5288;
   border: 1px solid #689bcc;
   -webkit-box-shadow: inset 0px 7px 8px 0px rgba(0,0,0,0.75);
@@ -126,12 +175,12 @@ div{
 }
 .check{
   text-align: left;
-  padding-left: 88px;
+  padding-left: 117px;
 }
-.check span{
-  text-decoration: none;
+label{
+  vertical-align: 2px;
 }
-button{
+input[type="submit"]{
   height: 36px;
   width: 150px;
   border: 1px solid #65a8e4;
@@ -141,6 +190,7 @@ button{
   -moz-box-shadow: inset 0px 3px 3px 0px rgba(103,198,230,0.5);
   box-shadow: inset 0px 3px 3px 0px rgba(103,198,230,0.5);
   color: #fff;
+  cursor: pointer
 }
 footer{
   padding-top: 10px;

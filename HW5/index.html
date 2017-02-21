@@ -20,20 +20,19 @@
       </ul>
       <ul  class="menu">
         <li><a href="#">Minhas Ofertas <img src="img/7.png" alt="flag"> </a></li>
-        <li><a href="#">Ola! <span>Entrar</span> ou <span>Cadastre-se</span></a></li>
+        <li><a class="right" href="#">Ola! <span>Entrar</span> ou <span>Cadastre-se</span></a></li>
       </ul>
     </nav>
   </header>
   <main>
     <h1>Cadastre-se</h1>
-    <section>
       <form action="index.html">
         <div>
-          <input type="image" src="img/facebook.png" alt="facebook">
+          <button type="button" name="button"><span class="f">f</span> <span class="log">Log In <span class="with">with</span> Facebook </span><span class="arrow">&gt;</span></span></button>
         </div>
         <div class="line">OU</div>
         <div>
-          <input class="transform" type="text" name="first-name" id="first-name" placeholder="First Name">
+          <input class="transform" type="text" name="first_name" id="first_name" placeholder="First Name">
         </div>
         <div>
           <input class="transform" type="text" name="last_name" id="last_name" placeholder="Last Name">
@@ -49,17 +48,16 @@
         </div>
         <div class="check">
           <input type="checkbox" name="check" id="check">
-          <span>Send me Youbike updates and tips</span>
+          <label for="check">Send me Youbike updates and tips</label>
         </div>
         <div>
-          <button type="button" name="button"><h4>Create my Account</h4></button>
+          <input type="submit" value="Create my Account">
         </div>
+        <footer>
+          <p>By clicking the button above, you agree to the Terms of Service</p>
+          <p>Xiew our Privacy Policy.</p>
+        </footer>
       </form>
-      <footer>
-        <p>By clicking the button above, you agree to the Terms of Service</p>
-        <p>Xiew our Privacy Policy.</p>
-      </footer>
-    </section>
   </main>
 </body>
 </html>
