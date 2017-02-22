@@ -163,9 +163,8 @@ input[type="text"], [type="email"], [type="password"]{
 .transform:focus{
   height: 33px;
   width: 258px;
-  margin: -1px;
   background: #1b5288;
-  border: 1px solid #689bcc;
+  outline: none;
   -webkit-box-shadow: inset 0px 7px 8px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 7px 8px 0px rgba(0,0,0,0.75);
   box-shadow: inset 0px 7px 8px 0px rgba(0,0,0,0.75);
