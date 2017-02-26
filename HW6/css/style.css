@@ -1,0 +1,483 @@
+.wrapper{
+  background: #fff;
+  margin: 0 auto;
+  padding: 7px 1px 0;
+  width: 909px;
+  font-family: Arial;
+}
+.clearfix:after{
+  content: '';
+  clear: both;
+  display: block;
+}
+.telephone{
+  padding: 2px 0 0 5px;
+  float: left;
+  width: 295px;
+}
+.telephone img{
+  padding: 6px 0 0 3px;
+}
+.telephone p{
+  display: inline-block;
+  vertical-align: super;
+  color: #5e696d;
+  line-height: 25px;
+  font-size: 18px;
+}
+.telephone span{
+  padding-left: 2px;
+}
+.avtoriz{
+  float: left;
+  width: 495px;
+  height: 26px;
+  margin: 2px 0 0 16px;
+  background: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+  border-radius: 4px;
+  box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+}
+.avtoriz img{
+  float: left;
+  margin: 5px 3px 0 7px;
+  width: 14px;
+  height: 18px;
+}
+.avtoriz input{
+  float: left;
+  margin: 3px 7px 0 1px;
+  width: 111px;
+  height: 14px;
+  border: 1px solid #9ba1a3;
+}
+.avtoriz li{
+    display: inline-block;
+    float: left;
+    margin: 8px 5px 0 0;
+    padding-right: 4px;
+    height: 12px;
+}
+.avtoriz li:first-child{
+  border-right: 1px solid #fff;
+}
+.avtoriz a{
+  display: block;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 11px;
+  color: #fff;
+  line-height: 11px;
+}
+.avtoriz .forgot{
+  padding-left: 15px;
+  color: #bfbfbf;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.navi{
+  margin: 4px 5px 0 0;
+  float: right;
+  width: 75px;
+  height: 19px;
+  border: 1px solid #bdc4c7;
+  border-radius: 11px;
+}
+.navi img{
+  margin: 3px -3px 0 7px;
+  width: 13px;
+  height: 10px;
+}
+.blick{
+  padding-top: 7px;
+  width: 909px;
+  height: 237px;
+}
+nav{
+  width: 772px;
+  height: 34px;
+  margin: 3px 0;
+  padding-left: 138px;
+  background: linear-gradient(to top, black 0%, #576068 100%);
+  border: 1px solid #0d1642;
+  border-radius: 5px;
+  box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
+}
+nav ul{
+  display: inline-block;
+  float: left;
+}
+nav li{
+  display: inline-block;
+}
+.menu a{
+  padding: 0 18px 0 8px;
+  font-family: "Lucida Sans Unicode";
+  font-size: 14px;
+  line-height: 33px;
+  color: #b1bcc0;
+}
+nav a:hover{
+  border-radius: 12px;
+  background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+  color: #fff;
+}
+.koshyk img{
+  padding: 7px 0 0 44px;
+}
+.koshyk p{
+  margin: -12px 9px 0 1px;
+  color: #8a9296;
+  line-height: 14px;
+  font-family: Arial;
+  font-size: 12px;
+}
+.koshyk span{
+  margin: 0 1px;
+  color: #0d5a8f;
+  font-size: 12px;
+}
+.koshyk .money{
+  padding-left: 6px;
+}
+fieldset{
+  border: 1px solid #9c9c9d;
+  color: black;
+  font-size: 10px;
+}
+fieldset span{
+  color: #77858b;
+  font-size: 9px;
+}
+.PoAvto{
+  float: left;
+  width: 413px;
+  height: 132px;
+  margin: 7px 8px 10px 5px;
+  border-radius: 17px;
+  box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, 0.75);
+  text-align: center;
+}
+.form h5{
+  color: #154467;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 15px;
+}
+.form h6{
+  color: #154468;
+  font-size: 10px;
+  font-weight: 900;
+}
+dt{
+  float: left;
+}
+.PoAvto dt{
+  text-align: left;
+  padding: 12px 0 0 18px;
+  width: 57px;
+  height: 10px;
+}
+.PoAvto dd{
+  padding: 4px 0 0 86px;
+}
+select{
+  width: 100px;
+  height: 19px;
+  box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+}
+.year{
+  margin-right: 41px;
+  width: 58px;
+}
+.discavto{
+  float: left;
+  margin-top: -11px;
+  width: 200px;
+}
+.discavto h6{
+  text-align: left;
+  padding-left: 21px;
+}
+.tiresavto{
+  float: left;
+  margin-top: -13px;
+  width: 205px;
+}
+.tiresavto h6{
+  text-align: right;
+  padding-right: 13px;
+}
+.search{
+  text-align: right;
+  padding-left: 123px;
+  line-height: 1;
+  color: #154467;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: underline;
+}
+.Tires{
+  float: left;
+  width: 192px;
+  height: 135px;
+  margin: 6px 0 0 6px;
+  border-radius: 17px;
+  box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+}
+.Tires h5{
+  padding-left: 10px;
+}
+.Tires dt{
+  width: 50px;
+  padding-top: 9px;
+  text-align: right;
+}
+.Tires span{
+  font-size: 15px;
+  font-weight: 600;
+}
+.Tires dd{
+  padding: 7px 0 0 60px;
+}
+.Tires div{
+  margin: -4px 0 0 -5px;
+  height: 16px;
+}
+.Tires select{
+  width: 50px;
+}
+.Tires input{
+  padding: 1px;
+  box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+  transform:scale(0.8);
+}
+.Tires label{
+  vertical-align: 2px;
+  color: black;
+  font-family: "Lucida Sans Unicode";
+  font-size: 12px;
+}
+.disc{
+  float: right;
+  width: 268px;
+  height: 133px;
+  margin: 6px 3px 0 0;
+  border-radius: 14px;
+  box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+}
+.disc h5{
+  padding-left: 11px;
+}
+.disc dl{
+  float: left;
+  width: 150px;
+}
+.disc dt{
+  padding-left: 22px;
+  width: 76px;
+}
+.disc .first{
+  padding-top: 10px;
+}
+.disc select{
+  width: 50px;
+}
+.disc dd{
+  padding: 7px 0 2px 0;
+}
+.disc div{
+  float: right;
+  width: 45px;
+  padding: 5px 36px 0 10px;
+  border-left: 1px solid #bdc6ca;
+}
+.disc .search{
+  float: right;
+  padding-right: 20px;
+}
+.left{
+  float: left;
+  margin-top: 8px;
+  width: 180px;
+}
+aside figure{
+  height: 23px;
+  width: 177px;
+  margin-bottom: 13px;
+  padding: 1px;
+  border-radius: 20px;
+  border: 1px solid #79878d;
+  box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+  font-size: 13px;
+  color: #114165;
+  font-family: "Lucida Sans Unicode";
+}
+aside figcaption{
+  display: inline;
+  vertical-align: super;
+}
+.pla{
+  width: 148px;
+  height: 26px;
+  margin: 2px;
+  border: 1px solid #79878d;
+  border-radius: 12px;
+}
+.pla p{
+  display: inline;
+  vertical-align: middle;
+  line-height: 10px;
+  color: #114165;
+  font-family: "Lucida Sans Unicode";
+  font-size: 14px;
+}
+.big_circle{
+  height: 11px;
+  width: 11px;
+  margin: 3px 4px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 5px solid #114165;
+  border-radius: 50%;
+}
+.left li{
+  margin-bottom: -6px;
+}
+.left li li{
+  margin: 4px 0 0 37px;
+  height: 22px;
+  list-style: circle inside;
+}
+.left li li:hover{
+  color: #0c3256;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+aside a{
+  margin: 0 -20px;
+  padding: 0;
+  color: #465961;
+  font-family: "Lucida Sans Unicode";
+  font-size: 13px;
+}
+section{
+  float: left;
+  width: 525px;
+  height: 624px;
+  margin: 9px 11px;
+  background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
+  border-radius: 3px;
+}
+section figure{
+  display: inline-block;
+  text-align: center;
+  margin-left: 20px;
+  padding: 10px 2px 6px;
+  width: 140px;
+  line-height: 15px;
+  color: #1f2528;
+  font-size: 13px;
+}
+main section div{
+  height: 118px;
+  width: 137px;
+  padding: 4px 0;
+  background-color: white;
+  border: 1px solid #a4aeb1;
+  border-radius: 7px;
+}
+section h4{
+  color: #206988;
+  font-size: 15px;
+}
+section figcaption{
+  text-align: center;
+  color: #114165;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 28px;
+  font-size: 16px;
+}
+section figcaption span{
+  font-size: 12px;
+}
+.right{
+  float: right;
+  margin-top: 7px;
+}
+.right .pla{
+  margin-left: 14px;
+  width: 133px;
+}
+.right figcaption{
+  padding-left: 4px;
+}
+.right ul{
+  padding-bottom: 5px;
+}
+.right input{
+  margin-left: 24px;
+  box-shadow: inset 0.5px 0.9px 3px 1px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transform: scale(0.8);
+}
+.right label{
+  padding-left: 4px;
+  vertical-align: 3px;
+  color: #465961;
+  font-family: "Lucida Sans Unicode";
+  font-size: 13px;
+  line-height: 26px;
+  cursor: pointer;
+}
+.right button{
+  width: 79px;
+  height: 26px;
+  margin: 3px 24px;
+  background: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+  border: 1px solid #a7abae;
+  border-radius: 10px;
+  color: #e5e9ea;
+  font-size: 11px;
+}
+.logo{
+  text-align: center;
+}
+.logo img{
+  padding: 26px 4px;
+}
+footer{
+  width: 909px;
+  height: 98px;
+  background-color: #213a4d;
+  border: 1px solid #242a3c;
+  text-align: center;
+}
+footer ul{
+  padding: 11px 0 0 298px;
+}
+footer li{
+    float: left;
+    height: 11px;
+    border-right: 1px solid #bec6c9;
+}
+footer li:last-child{
+    border: none;
+}
+footer a{
+  display: block;
+  padding: 0 13px;
+  font-size: 12px;
+  color: #bec6c9;
+}
+footer a:hover{
+  color: #52abcb;
+}
+footer p{
+  clear: both;
+  color: #7f4740;
+  font-size: 10px;
+  line-height: 45px;
+}
