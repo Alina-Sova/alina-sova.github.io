@@ -11,53 +11,62 @@
   display: block;
 }
 .telephone{
-  padding: 2px 0 0 5px;
+  padding: 7px 0 0 8px;
   float: left;
   width: 295px;
 }
 .telephone img{
-  padding: 6px 0 0 3px;
+  display: block;
+  float: left;
 }
 .telephone p{
   display: inline-block;
   vertical-align: super;
   color: #5e696d;
-  line-height: 25px;
+  padding: 2px 0 0 3px;
   font-size: 18px;
 }
 .telephone span{
-  padding-left: 2px;
+  padding-left: 0px;
 }
 .avtoriz{
   float: left;
   width: 495px;
-  height: 26px;
-  margin: 2px 0 0 16px;
+  height: 27px;
+  margin: 2px 0 0 12px;
   background: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
   border-radius: 4px;
   box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
 }
 .avtoriz img{
   float: left;
-  margin: 5px 3px 0 7px;
-  width: 14px;
+  margin: 6px 3px 0 7px;
+  width: 13px;
   height: 18px;
 }
 .avtoriz input{
   float: left;
-  margin: 3px 7px 0 1px;
-  width: 111px;
-  height: 14px;
+  margin: 4px 6px 0 1px;
+  padding: 0 0 0 2px;
+  width: 110px;
+  height: 15px;
   border: 1px solid #9ba1a3;
+  font-size: 13px;
+}
+input[type="password"]{
+  width: 108px;
+  padding-left: 4px;
+  font-size: 12px
 }
 .avtoriz li{
     display: inline-block;
     float: left;
-    margin: 8px 5px 0 0;
+    margin: 8px 5px 0 -1px;
     padding-right: 4px;
-    height: 12px;
+    height: 11px;
 }
 .avtoriz li:first-child{
+  margin: 8px 5px 0 2px;
   border-right: 1px solid #fff;
 }
 .avtoriz a{
@@ -68,10 +77,13 @@
   line-height: 11px;
 }
 .avtoriz .forgot{
-  padding-left: 15px;
+  padding-left: 11px;
   color: #bfbfbf;
   font-size: 12px;
   text-decoration: underline;
+}
+.avtoriz .forgot:hover{
+  text-decoration: none;
 }
 .navi{
   margin: 4px 5px 0 0;
@@ -87,15 +99,15 @@
   height: 10px;
 }
 .blick{
-  padding-top: 7px;
+  padding: 6px 0 0 1px;
   width: 909px;
   height: 237px;
 }
 nav{
-  width: 772px;
+  width: 779px;
   height: 34px;
   margin: 3px 0;
-  padding-left: 138px;
+  padding-left: 132px;
   background: linear-gradient(to top, black 0%, #576068 100%);
   border: 1px solid #0d1642;
   border-radius: 5px;
@@ -109,7 +121,7 @@ nav li{
   display: inline-block;
 }
 .menu a{
-  padding: 0 18px 0 8px;
+  padding: 3px 13px;
   font-family: "Lucida Sans Unicode";
   font-size: 14px;
   line-height: 33px;
@@ -121,22 +133,24 @@ nav a:hover{
   color: #fff;
 }
 .koshyk img{
-  padding: 7px 0 0 44px;
+  display: block;
+  float: left;
+  padding: 7px 7px 0 49px;
 }
 .koshyk p{
-  margin: -12px 9px 0 1px;
+  margin: 9px 13px 0 0;
+  float: left;
   color: #8a9296;
-  line-height: 14px;
   font-family: Arial;
   font-size: 12px;
 }
 .koshyk span{
-  margin: 0 1px;
+  margin-left: 2px;
   color: #0d5a8f;
-  font-size: 12px;
+  font-size: 13px;
 }
 .koshyk .money{
-  padding-left: 6px;
+  padding-left: 5px;
 }
 fieldset{
   border: 1px solid #9c9c9d;
@@ -214,6 +228,9 @@ select{
   font-size: 14px;
   font-style: italic;
   text-decoration: underline;
+}
+.search:hover{
+  text-decoration: none;
 }
 .Tires{
   float: left;
@@ -345,29 +362,38 @@ aside figcaption{
 .left li li{
   margin: 4px 0 0 37px;
   height: 22px;
-  list-style: circle inside;
 }
-.left li li:hover{
-  color: #0c3256;
-  font-size: 14px;
-  font-weight: 700;
-  font-style: italic;
-  letter-spacing: 1px;
-  text-decoration: underline;
+.circle{
+  height: 3px;
+  width: 3px;
+  margin: -2px 3px 0 20px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 2px solid #79878d;
+  border-radius: 50%;
 }
 aside a{
   margin: 0 -20px;
   padding: 0;
-  color: #465961;
+  color: #114165;
   font-family: "Lucida Sans Unicode";
   font-size: 13px;
 }
+.left li li:hover{
+  color: #114165;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+  /*border: 2px solid #114165;*/
+}
 section{
   float: left;
-  width: 525px;
+  width: 526px;
   height: 624px;
-  margin: 9px 11px;
-  background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
+  margin: 5px 0 0 12px;
+  padding-top: 4px;
+  background-image: linear-gradient(to top, rgba(35, 75, 93, 0.5) 0%, rgba(201, 207, 209, 0.5) 100%);
   border-radius: 3px;
 }
 section figure{
@@ -393,6 +419,8 @@ section h4{
   font-size: 15px;
 }
 section figcaption{
+  padding-left: 11px;
+  letter-spacing: 1px;
   text-align: center;
   color: #114165;
   font-weight: 700;
@@ -433,9 +461,9 @@ section figcaption span{
   cursor: pointer;
 }
 .right button{
-  width: 79px;
-  height: 26px;
-  margin: 3px 24px;
+  width: 82px;
+  height: 28px;
+  margin: 2px 23px;
   background: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
   border: 1px solid #a7abae;
   border-radius: 10px;
@@ -446,11 +474,13 @@ section figcaption span{
   text-align: center;
 }
 .logo img{
-  padding: 26px 4px;
+  vertical-align: middle;;
+  padding: 37px 4px 27px;
 }
 footer{
   width: 909px;
   height: 98px;
+  margin-top: -1px;
   background-color: #213a4d;
   border: 1px solid #242a3c;
   text-align: center;
@@ -479,5 +509,5 @@ footer p{
   clear: both;
   color: #7f4740;
   font-size: 10px;
-  line-height: 45px;
+  line-height: 43px;
 }
