@@ -46,22 +46,22 @@
 }
 .avtoriz input{
   float: left;
-  margin: 4px 6px 0 1px;
+  margin: 4px 6px 0 2px;
   padding: 0 0 0 2px;
-  width: 110px;
+  width: 109px;
   height: 15px;
   border: 1px solid #9ba1a3;
-  font-size: 13px;
+  font-size: 12px;
 }
 input[type="password"]{
-  width: 108px;
+  width: 107px;
   padding-left: 4px;
   font-size: 12px
 }
 .avtoriz li{
     display: inline-block;
     float: left;
-    margin: 8px 5px 0 -1px;
+    margin-top: 8px;
     padding-right: 4px;
     height: 11px;
 }
@@ -77,13 +77,14 @@ input[type="password"]{
   line-height: 11px;
 }
 .avtoriz .forgot{
-  padding-left: 11px;
+  padding-bottom: 1px;
+  margin-left: 14px;
   color: #bfbfbf;
   font-size: 12px;
-  text-decoration: underline;
+  border-bottom: 1px solid #bfbfbf;
 }
 .avtoriz .forgot:hover{
-  text-decoration: none;
+  border: none;
 }
 .navi{
   margin: 4px 5px 0 0;
@@ -108,7 +109,7 @@ nav{
   height: 34px;
   margin: 3px 0;
   padding-left: 132px;
-  background: linear-gradient(to top, black 0%, #576068 100%);
+  background: linear-gradient(to top, #0d0e10, #282c30);
   border: 1px solid #0d1642;
   border-radius: 5px;
   box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
@@ -158,6 +159,7 @@ fieldset{
   font-size: 10px;
 }
 fieldset span{
+  vertical-align: top;
   color: #77858b;
   font-size: 9px;
 }
@@ -171,6 +173,7 @@ fieldset span{
   text-align: center;
 }
 .form h5{
+  margin: -1px 0 0 -11px;
   color: #154467;
   font-size: 12px;
   font-weight: 900;
@@ -186,16 +189,13 @@ dt{
 }
 .PoAvto dt{
   text-align: left;
-  padding: 12px 0 0 18px;
+  padding: 6px 0 0 18px;
   width: 57px;
   height: 10px;
 }
-.PoAvto dd{
-  padding: 4px 0 0 86px;
-}
 select{
-  width: 100px;
-  height: 19px;
+  width: 101px;
+  height: 17px;
   box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
 }
 .year{
@@ -204,26 +204,37 @@ select{
 }
 .discavto{
   float: left;
-  margin-top: -11px;
+  margin-top: -10px;
   width: 200px;
 }
 .discavto h6{
   text-align: left;
   padding-left: 21px;
 }
+.marka{
+  margin-top: 6px;
+}
+.komp{
+  margin-top: 4px;
+}
+.discavto dd{
+  padding: 5px 0 0 87px;
+}
 .tiresavto{
   float: left;
-  margin-top: -13px;
+  margin: -12px 0 0 5px;
   width: 205px;
 }
 .tiresavto h6{
   text-align: right;
-  padding-right: 13px;
+  padding-right: 19px;
+}
+.tiresavto dd{
+  padding: 5px 0 0 81px;
 }
 .search{
-  text-align: right;
-  padding-left: 123px;
-  line-height: 1;
+  display: block;
+  margin: 9px 0 0 120px;
   color: #154467;
   font-size: 14px;
   font-style: italic;
@@ -241,14 +252,22 @@ select{
   box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
 }
 .Tires h5{
-  padding-left: 10px;
+  margin: 1px 0 0 10px;
 }
 .Tires dt{
   width: 50px;
-  padding-top: 9px;
+  margin: 14px 0 0 2px;
   text-align: right;
 }
+.Tires .R{
+  margin: 11px 0 0 3px;
+  font-size: 11px;
+}
+.Tires .season{
+  margin: 5px 0 0 -3px;
+}
 .Tires span{
+  margin-right: 6px;
   font-size: 15px;
   font-weight: 600;
 }
@@ -256,14 +275,19 @@ select{
   padding: 7px 0 0 60px;
 }
 .Tires div{
-  margin: -4px 0 0 -5px;
+  margin: -4px 0 1px -12px;
   height: 16px;
 }
 .Tires select{
+  margin: -1px 5px 1px -3px;
   width: 50px;
+  font-size: 10px;
+}
+.Tires .selectR{
+  width: 46px;
 }
 .Tires input{
-  padding: 1px;
+  margin: 3px -2px 0 9px;
   box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
   transform:scale(0.8);
 }
@@ -272,6 +296,9 @@ select{
   color: black;
   font-family: "Lucida Sans Unicode";
   font-size: 12px;
+}
+.Tires .search{
+  margin: 0 0 0 123px;
 }
 .disc{
   float: right;
@@ -282,34 +309,52 @@ select{
   box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
 }
 .disc h5{
-  padding-left: 11px;
+  margin: 1px 0 -2px 9px;
+  letter-spacing: 1px;
 }
 .disc dl{
   float: left;
-  width: 150px;
+  width: 175px;
 }
-.disc dt{
-  padding-left: 22px;
+.disc dl dt{
+  padding-left: 16px;
+  margin-top: -5px;
   width: 76px;
+  letter-spacing: 1px;
 }
 .disc .first{
-  padding-top: 10px;
+  margin-top: 10px;
 }
 .disc select{
+  width: 57px;
+  margin-left: 14px;
+  font-size: 11px;
+}
+.disc .number{
   width: 50px;
 }
 .disc dd{
-  padding: 7px 0 2px 0;
+  padding: 6px 0 8px;
 }
 .disc div{
   float: right;
-  width: 45px;
-  padding: 5px 36px 0 10px;
+  width: 61px;
+  margin-top: 5px;
+  padding: 0 20px 0 10px;
   border-left: 1px solid #bdc6ca;
+}
+.disc div span{
+  display: inline-block;
+  line-height: 8px;
+}
+.disc div select{
+  width: 59px;
+  margin: 2px 0 7px 0;
+  font-size: 11px;
 }
 .disc .search{
   float: right;
-  padding-right: 20px;
+  margin: -1px 19px 0 0;
 }
 .left{
   float: left;
@@ -435,12 +480,15 @@ section figcaption span{
   float: right;
   margin-top: 7px;
 }
+.right img{
+  margin-left: 1px;
+}
 .right .pla{
   margin-left: 14px;
   width: 133px;
 }
 .right figcaption{
-  padding-left: 4px;
+  padding-left: 3px;
 }
 .right ul{
   padding-bottom: 5px;
