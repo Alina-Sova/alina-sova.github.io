@@ -298,30 +298,30 @@ footer{
   .center--nav{
     position: relative;
   }
-   .nav:hover .home--submenu{
-    margin: -14px 0 0 -98px;
-    padding: 14px 0 0;
-    width: 244px;
-    height: 35px;
-    opacity: 0.9;
-    background-color: #36293e;
-    border: 1px solid #051116;
-    border-bottom: none;
-    border-radius: 10px 10px 0 0;
+  .nav{
+    position: relative;
+  }
+  .home{
+    z-index: 3;
+    position: absolute;
+    top: -30px;
+    left: 0px;
   }
   .nav__submenu{
     display: none;
     position: absolute;
-    top: 178px;
-    left: 118px;
+    top: -13px;
+    left: -98px;
+    padding-top: 48px;
     width: 244px;
     height: 210px;
+    z-index: 1;
     opacity: 0.9;
     overflow: hidden;
     background-color: #36293e;
     border: 1px solid #051116;
     border-top: none;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   }
   .nav__a{
