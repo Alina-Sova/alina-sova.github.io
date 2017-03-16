@@ -6,20 +6,31 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font.css">
   <title>PINGBULLER</title>
 </head>
 <body>
   <header>
     <div class="center center--nav">
     <h1 class="logo">PINGBULL<span class="logo__end">ER</span></h1>
-    <ul class="nav">
+    <ul class="nav clearfix">
       <a  class="home" href="#">HOME</a>
       <ul class="nav__submenu">
-        <li><a class="nav__a" href="#">About</a></li>
-        <li><a class="nav__a" href="#">Blog</a></li>
-        <li><a class="nav__a" href="#">Products</a></li>
-        <li><a class="nav__a" href="#">Lorem ipsun</a></li>
-        <li><a class="nav__a" href="#">Dolor sit amet</a></li>
+        <li class="nav__li">
+          <a class="nav__a" href="#">About</a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="#">Blog</a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="#">Products</a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="#">Lorem ipsun</a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="#">Dolor sit amet</a>
+        </li>
       </ul>
     </ul>
   </div>
@@ -27,7 +38,7 @@
       <div class="center">
         <p class="slider__lip">Lorem Ipsum Dolor</p>
         <p class="slider__pink">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</p>
-        <p class="slider__article">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id </p>
+        <p class="slider__article">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</p>
         <img class="phone" src="img/phone.png" alt="">
       </div>
     </div>
@@ -39,21 +50,25 @@
     </div>
   </header>
   <main>
-    <article class="about">
+    <ul class="about">
       <div class="center">
-        <h3 class="about__title about__title--sprite">ABOUT OUR COMPANY</h3>
-        <p class="about__article">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultries posuere. Pel- lentesque vel lacus eget nisi convallis auctor. Nam</p>
-        <a class="about__more">READ MORE</a>
-
-        <h3 class="about__title about__title--sprite">ABOUT OUR COMPANY</h3>
-        <p class="about__article">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultries posuere. Pel- lentesque vel lacus eget nisi convallis auctor. Nam</p>
-        <a class="about__more about__more--pad">READ MORE</a>
-
-        <h3 class="about__title about__title--sprite">ABOUT OUR COMPANY</h3>
-        <p class="about__article">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultries posuere. Pel- lentesque vel lacus eget nisi convallis auctor. Nam</p>
-        <a class="about__more">READ MORE</a>
+        <li class="about__li">
+          <h3 class="about__title about__title--sprite">ABOUT OUR COMPANY</h3>
+          <p class="about__article">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultries posuere. Pel- lentesque vel lacus eget nisi convallis auctor. Nam</p>
+          <a class="about__more">READ MORE</a>
+        </li>
+        <li class="about__li">
+          <h3 class="about__title about__title--sprite sprite--second">ABOUT OUR COMPANY</h3>
+          <p class="about__article">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultries posuere. Pel- lentesque vel lacus eget nisi convallis auctor. Nam</p>
+          <a class="about__more about__more--pad">READ MORE</a>
+        </li>
+        <li class="about__li about__li--last">
+          <h3 class="about__title about__title--sprite sprite--last">ABOUT OUR COMPANY</h3>
+          <p class="about__article">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultries posuere. Pel- lentesque vel lacus eget nisi convallis auctor. Nam</p>
+          <a class="about__more">READ MORE</a>
+        </li>
       </div>
-    </article>
+    </ul>
     <div class="center">
       <article class="starts">
         <img class="starts__img" src="img/man.png" alt="">
@@ -81,17 +96,17 @@
         </figure>
         <figcaption>
           <h5 class="updates__post">Nunc turpis neque feugiat eget</h5>
-          <p class="updates__post updates__post--article">Posted by Admin on March 13  2012 in Recent News</p>
+          <p class="updates__post updates__post--article">Posted by Admin on March 13  2012 in Category</p>
         </figcaption>
         <figure class="updates__img">
           <img class="updates__img" src="img/3.png" alt="">
         </figure>
         <figcaption>
           <h5 class="updates__post">Nunc turpis neque feugiat eget</h5>
-          <p class="updates__post updates__post--article">Posted by Admin on March 13 2012 in Recent News</p>
+          <p class="updates__post updates__post--article">Posted by Admin on March 13 2012 in Blog Updates</p>
         </figcaption>
         <a class="about__more about__more--main clearfix">MORE BLOG POSTS</a>
-        <a class="about__more--main--960 clearfix">READ MORE HERE</a>
+        <a class="about__more--960 clearfix">READ MORE HERE</a>
       </div>
     </div>
     <hr>
@@ -103,21 +118,21 @@
     </div>
     <ul class="news clearfix">
       <div class="center">
-        <li class="news-grey clearfix">
+        <li class="about__li about__li--news">
           <h4 class="about__title news__title">NEWS CATEGORIES</h4>
           <div class="news__title_960">
-            <h3 class="news__960">PIGBULL<span class="news__960--end">ER</span></h3>
-            <p class="news__italic">Copyright 2013, Pingbull AS</p>
+            <h3 class="logo news__title__960--logo">PIGBULL<span class="logo__end news__title__960--end">ER</span></h3>
+            <p class="news__title__960--italic">Copyright 2013, Pingbull AS</p>
           </div>
-          <p class=" about__article news__article">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul- vinar. Quisque urna risus, mattis pulvinar biben</p>
+          <p class="about__article news__article news__article--first">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul- vinar. Quisque urna risus, mattis pulvinar biben</p>
         </li>
-        <li class="news-grey clearfix">
+        <li class="about__li about__li--news">
           <h4 class="about__title news__title">NEWS CATEGORIES</h4>
           <h4 class="about__title news__title title_960">RECENT COMMENTS</h4>
           <p class="about__article news__article">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
         </li>
-        <li class="news-grey clearfix">
-          <h4 class="about__title news__title">NEWS CATEGORIES</h4>
+        <li class="about__li about__li--news about__li--news--last">
+          <h4 class="about__title news__title news__title--last">NEWS CATEGORIES</h4>
           <p class="about__article news__article">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
         </li>
       </div>
