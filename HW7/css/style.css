@@ -612,11 +612,17 @@ footer{
     padding: 79px 646px 0 0;
     font-size: 58px;
   }
+  .slider__lip:before{
+    display: none;
+  }
+  .slider__lip:after{
+    display: none;
+  }
   .slider__lip:after{
     margin:80px -473px 0 0;
   }
   .slider__pink{
-    margin: -61px 0 0;
+    margin: 0;
     width: 410px;
     height: 27px;
     font-size: 32px;
