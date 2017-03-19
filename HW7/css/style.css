@@ -1,6 +1,7 @@
 body{
   color: #fff;
   font-family: LeagueGothic;
+  overflow-x: hidden;
 }
 .clearfix{
   content: '';
@@ -34,16 +35,57 @@ header{
   height: 34px;
   width: 47px;
   margin: 0 auto;
+  position: relative;
 }
 .home{
   width: 37px;
   padding: 4px;
-  margin: 26px 0 0 2px;
+  z-index: 3;
+  position: absolute;
+  top: -1px;
+  left: 2px;
   border-bottom: 2px solid #edbfff;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
   font-size: 24px;
   text-transform: uppercase;
   color: #fff;
+}
+.home:hover{
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+.nav__submenu{
+  display: none;
+  position: absolute;
+  top: -13px;
+  left: -98px;
+  padding-top: 48px;
+  width: 244px;
+  height: 210px;
+  z-index: 1;
+  opacity: 0.9;
+  overflow: hidden;
+  background-color: #36293e;
+  border: 1px solid #051116;
+  border-top: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+.nav__a{
+  display: block;
+  padding: 7px 0 10px;
+  border-top: 1px solid #513e5a;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+}
+.nav:hover .nav__submenu{
+  display: block;
+}
+.nav__a:hover{
+  background: #221a27;
+  border-bottom: 3px solid #edbfff;
+  padding: 7px 0 7px;
 }
 .slider{
   height: 100px;
@@ -86,7 +128,7 @@ header{
   background-position: 29px 0;
 }
 .dots{
-  padding: 35px 0 66px 29px;
+  padding: 35px 0 66px 32px;
 }
 .dot{
   margin-right: 3px;
@@ -146,6 +188,7 @@ main{
 }
 .about__more:hover{
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  cursor: pointer;
 }
 .about__li--last{
   padding-top: 16px;
@@ -176,6 +219,7 @@ main{
   margin-left: 28px;
   height: 171px;
   width: 190px;
+  text-shadow: 0.5px 0.9px 0 white;
 }
 .navigation{
   padding: 22px 0 0 141px;
@@ -213,7 +257,7 @@ figcaption{
   height: 17px;
   width: 215px;
   overflow: hidden;
-  text-shadow: 0.5px 0.9px 0 white;
+  text-shadow: 0.5px 0.4px 0 black;
   font-family: 'open sans';
   line-height: 17px;
   font-size: 16px;
@@ -225,10 +269,14 @@ figcaption{
   font-weight: 300;
   letter-spacing: 0px;
   word-spacing: -2px;
+  text-shadow: 0.5px 0.9px 0 white;
 }
 .about__more--main{
   padding: 15px 0 0 188px;
   text-shadow: 0.5px 0.9px 0 white;
+}
+.about__more--main:hover{
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 hr{
   margin: 89px 0 51px 0;
@@ -266,6 +314,11 @@ footer{
 .foot__weight{
   font-weight: 700;
   word-spacing: 5px;
+  color: #fff;
+}
+.foot__weight:hover{
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  cursor: pointer;
 }
 
 @media (min-width: 480px){
@@ -278,47 +331,10 @@ footer{
   .center--nav{
     position: relative;
   }
-  .nav{
-    position: relative;
-  }
   .home{
-    z-index: 3;
-    position: absolute;
-    top: -30px;
-    left: 0px;
-  }
-  .nav__submenu{
-    display: none;
-    position: absolute;
-    top: -13px;
-    left: -98px;
-    padding-top: 48px;
-    width: 244px;
-    height: 210px;
-    z-index: 1;
-    opacity: 0.9;
-    overflow: hidden;
-    background-color: #36293e;
-    border: 1px solid #051116;
-    border-top: none;
-    border-radius: 10px;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-  }
-  .nav__a{
-    display: block;
-    padding: 7px 0 10px;
-    border-top: 1px solid #513e5a;
-    font-size: 24px;
-    text-transform: uppercase;
-    color: #fff;
-  }
-  .nav:hover .nav__submenu{
-    display: block;
-  }
-  .nav__a:hover{
-    background: #221a27;
-    border-bottom: 3px solid #edbfff;
-    padding: 7px 0 7px;
+    top: -4px;
+    left: 4px;
+    text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
   }
   .slider{
     width: 100%;
@@ -426,6 +442,10 @@ footer{
     font-family: LeagueGothic;
     font-size: 20px;
     text-transform: uppercase;
+    text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+  }
+  .nav--footer__a:hover{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
   }
   .foot{
     padding: 56px 0 0 171px;
@@ -449,7 +469,7 @@ footer{
     display: block;
     border: none;
     width: 760px;
-    height: 30px;
+    height: 45px;
     top: -56px;
     left: -283px;
     background: none;
@@ -461,11 +481,12 @@ footer{
     margin: 0 23px 0 29px;
   }
   .nav:hover .nav__a{
-    border: none;
     background: none;
   }
   .nav__a:hover{
+    padding-bottom: 4px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    border-bottom: 2px solid #edbfff;
   }
   .slider{
     margin-top: 66px;
@@ -592,8 +613,8 @@ footer{
     margin-left: -3px;
   }
   .home{
-    top: -101px;
-    left: -133px;
+    top: -75px;
+    left: -131px;
   }
   .nav__submenu{
     top: -125px;
@@ -696,6 +717,11 @@ footer{
     width: 100px;
     padding: 15px 0 0 358px;
     font-size: 18px;
+    text-shadow: 0.5px 0.9px 0 white;
+  }
+  .about__more--960:hover{
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
   }
   .navigation{
     padding-left: 199px;
@@ -746,7 +772,7 @@ footer{
   }
   .title_960{
     display: block;
-    margin: 17px 0 0;
+    margin: 0;
   }
   .about__li--news--last{
     margin: 18px 0 0 -26px;
