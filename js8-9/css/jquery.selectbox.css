@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+.jquery-selectbox {
+	position: relative;
+	height: 16px;
+	border: 1px solid #d2ad63;
+	width: 100px;
+	z-index: 0;
+	float: left;
+	display: inline;
+	margin: 0 47% 25px;
+	font-size: 10px;
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #444;
+	padding: 0;
+	background-image: url("../img/bg-TextField.gif");
+}
+/*.jquery-custom-selectboxes-replaced{
+	margin: 100px auto;
+}*/
+.jquery-selectbox.selecthover:hover {
+	border-color: #9F7627;
+	background-color: #FFFCDF;
+	background-image: url("../img/bg-TextFieldFocused.gif");
+	z-index: 700;
+}
+.jquery-selectbox .jquery-selectbox-currentItem {
+	padding: 3px 0px 0px 3px;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+}
+
+.jquery-selectbox .jquery-selectbox-list {
+	display: none;
+	position: absolute;
+	top: 16px;
+	padding: 2px;
+	left: 0px;
+	background: #fffcdf;
+	width: 94px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	z-index: 1000;
+	border: 1px solid #d2ad63;
+}
+.jquery-selectbox-moreButton:hover .jquery-custom-selectboxes-replaced{
+	display: block;
+}
+.jquery-selectbox .jquery-selectbox-moreButton {
+	/*
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	*/
+	float: right;
+	background: url("../img/lay-selectMoreButton.gif");
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+.jquery-selectbox .jquery-selectbox-moreButton.morebuttonhover:hover {
+	background: url("../img/lay-selectMoreButtonHover.gif");
+}
+
+.jquery-selectbox .jquery-selectbox-item.listelementhover:hover {
+	background: #87683d;
+	color: #eee;
+}
+.jquery-selectbox .jquery-selectbox-item {
+	display: block;
+	cursor: default;
+}
+.clr{
+	content: '';
+  clear: both;
+  display: block;
+}
+/** ERROR classes **/
+form .error .jquery-selectbox {
+	color: #d00;
+	border-color: #d00;
+	background-image: url("../img/bg-TextFieldError.gif");
+}
