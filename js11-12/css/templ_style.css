@@ -1,0 +1,36 @@
+.article{
+  text-align: center;
+}
+h1{
+  font-family: Arial;
+  text-transform: uppercase;
+}
+.article img{
+  width: 150px;
+  border: 1px solid black;
+}
+.article div{
+  width: 550px;
+  height: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+.student{
+  padding-left: 0px;
+}
+.article p{
+  font-family: Arial;
+  padding-left: 50px;
+}
+.article a{
+  padding-left: 50px;
+  font-style: italic;
+}
+hr{
+  background-color: #dddedd;
+  height: 1px;
+  border: none;
+}
+.line{
+  background-color: #8d8f8c;
+}

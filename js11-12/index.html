@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/templ_style.css">
+  <script type="text/javascript" src="js/myplugin.js"></script>
+  <script type="text/javascript" src="js/tmpl.js"></script>
+  <script type="text/javascript" src="js/tmpl_script.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <title>js11-12</title>
+</head>
+<body>
+  <div class="wrapper">
+    <h1 class="part_name">My Plugin</h1>
+    <div class="carousel-arrow-left">&larr;</div>
+      <div class="carousel-hider">
+        <ul class="carousel-list">
+          <li class="carousel-element"><img src="img/img1.jpg"></li>
+          <li class="carousel-element"><img src="img/img2.jpg"></li>
+          <li class="carousel-element"><img src="img/img3.jpg"></li>
+          <li class="carousel-element"><img src="img/img4.jpg"></li>
+          <li class="carousel-element"><img src="img/img5.jpg"></li>
+          <li class="carousel-element"><img src="img/img6.jpg"></li>
+        </ul>
+      </div>
+    <div class="carousel-arrow-right">&rarr;</div>
+  </div>
+  <div class="article">
+    <h1 class="part_name">JavaScript Micro-Templating</h1>
+    <script type="text/template" id="test">
+      <h1> <%= title %> </h1>
+      <!-- <% for (var i=0; i<elem.lenght; i++) { %>
+        <div class="article">
+          <p><%= elem[i].content%></p>
+        </div>
+      <% }; %> -->
+    </script>
+  </div>
+
+</body>
+</html>
