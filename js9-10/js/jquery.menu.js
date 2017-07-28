@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
+$(document).ready(function(){
 // $(".dropa").hover(function () {
 //     $(".sub-menu").slideDown("slow");
 // }, function(){

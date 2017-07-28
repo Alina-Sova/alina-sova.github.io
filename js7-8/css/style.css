@@ -1,0 +1,68 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.tabs{
+	padding: 5px;
+	width: 520px;
+	height: 300px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0 auto 20px;
+  border: 1px solid #c5c5c5;
+}
+.tabs ul{
+    margin:0px;
+    padding:0px;
+}
+.tabs ul:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.tabs ul li{
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    display:block;
+    float:left;
+    padding:10px 15px;
+    background:#e9eaeb;
+}
+.tabs ul li.active, .tabs ul li.active:hover{
+    background: green;
+    color:#fff;
+}
+.tabs ul li:hover{
+    background:#d6d6d7;
+}
+p{
+	padding: 15px;
+	margin: 0;
+	border: 1px solid #c5c5c5;
+}
+fieldset {
+	width: 500px;
+	margin: 0 auto;
+}
+label {
+    display: inline-block;
+		width: 80px;
+		height: 30px;
+  }
+	.forma div{
+		position: relative;
+	}
+	span{
+		/*display: none;*/
+		position: absolute;
+		width: 170px;
+		font-size: 12px;
+		padding: 3px;
+		border: 1px solid #c5c5c5;
+		box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.51);
+		opacity: 0;
+		right: 0;
+}
+/*input:hover span{
+	display: inline;
+}*/

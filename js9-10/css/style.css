@@ -145,6 +145,10 @@ li a:hover{
 .dropdown:hover .sub-menu{
   display: block;
 }
+.sub-menu:hover{
+  background: #F08080;
+  transition: 3s;
+}
 .subdropa{
   background-image: url(../img/arrow-right.png);
   background-position: right 16px;
@@ -163,6 +167,10 @@ li a:hover{
 .seconddrop:hover .secondsub{
   display: block;
 }
+.secondsub:hover{
+  background: #FF6347;
+  transition: 3s;
+}
 .sub-menu li{
   position: relative;
   margin: 0;
@@ -173,9 +181,6 @@ li a:hover{
   margin: 0 10px;
   padding: 0;
 }
-/*.sub-menu:hover{
-  display: block;
-}*/
 .clearfix::after{
   visibility: hidden;
   display: block;

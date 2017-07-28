@@ -5,8 +5,9 @@ h1{
   font-family: Arial;
   text-transform: uppercase;
 }
-.article img{
+.article .img{
   width: 150px;
+  height: 200px;
   border: 1px solid black;
 }
 .article div{

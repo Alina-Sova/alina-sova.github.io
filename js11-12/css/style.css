@@ -46,3 +46,7 @@
 .carousel-arrow-right {
     margin-left: 25px;
 }
+.templating{
+  max-width: 300px;
+  margin: 20px auto;
+}

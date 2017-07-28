@@ -1,11 +1,11 @@
-jQuery(document).ready(function(){
-jQuery(".niceCheck").mousedown(
+$(document).ready(function(){
+$(".niceCheck").mousedown(
 function() {
-     changeCheck(jQuery(this));
+     changeCheck($(this));
 });
-jQuery(".niceCheck").each(
+$(".niceCheck").each(
 function() {
-     changeCheckStart(jQuery(this));
+     changeCheckStart($(this));
 
 });
 });
