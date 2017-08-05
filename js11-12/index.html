@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/templ_style.css">
+  <script type="text/javascript" src="js/myplugin.js"></script>
+  <script type="text/javascript" src="js/tmpl.js"></script>
+  <script type="text/javascript" src="js/tmpl_script.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <title>js11-12</title>
+</head>
+<body>
+  <div class="wrapper">
+    <h1 class="part_name">My Plugin</h1>
+    <div class="carousel-arrow-left">&larr;</div>
+      <div class="carousel-hider">
+        <ul class="carousel-list">
+          <li class="carousel-element"><img src="img/img1.jpg"></li>
+          <li class="carousel-element"><img src="img/img2.jpg"></li>
+          <li class="carousel-element"><img src="img/img3.jpg"></li>
+          <li class="carousel-element"><img src="img/img4.jpg"></li>
+          <li class="carousel-element"><img src="img/img5.jpg"></li>
+          <li class="carousel-element"><img src="img/img6.jpg"></li>
+        </ul>
+      </div>
+    <div class="carousel-arrow-right">&rarr;</div>
+  </div>
+  <div class="templating">
+    <img src="" alt="">
+    <h1 class="part_name">Templating</h1>
+    <script type="text/template" id="test">
+      <h2><%= name%></h2>
+      <h2><%= who%></h2>
+      <img width="100px" src= <%= profile%>>
+      <% for(var i = 0; i<section.length; i++) { %>
+            <hr "<%= section[i].hr %>">
+            <h3><%= section[i].title %>:</h3>
+            <% if (i==0) {%>
+                <ul>
+                    <% for(var j = 0; j<section[0].list.length; j++) { %>
+                            <li><%=section[0].list[j].text %></li>
+                    <% }; %>
+                </ul>
+            <% } else { %>
+            <div><%= section[i].content %></div>
+            <% }; %>
+
+            <% }; %>
+    </script>
+  </div>
+</body>
+</html>

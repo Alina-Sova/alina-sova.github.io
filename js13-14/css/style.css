@@ -1,0 +1,26 @@
+a{
+  text-decoration: none;
+  color: #fff;
+}
+li{
+  list-style: none;
+}
+.test__container{
+font-family: sans-serif;
+width: 400px;
+margin: 0 auto;
+}
+.test__header{
+  text-align: center;
+}
+button{
+  display: block;
+  margin: 0 auto;
+  padding: 7px 20px;
+  background-color: #5bc0de;
+  border: 0px;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: #3d65e6;
+}
