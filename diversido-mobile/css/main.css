@@ -1,0 +1,70 @@
+main .table-responsive table th,main section h4{text-transform:uppercase}
+@font-face{font-family:Lato;src:url(https://fonts.google.com/specimen/Lato);font-weight:400;font-style:normal}
+html body{font-size:16px;font-family:Lato,sans-serif}
+header{padding:0;background-color:#4a868c;color:#fff}
+header .logo{display:inline-block;background-color:#253340;font-size:37px;color:red;padding:15px 41px 13px 50px}
+header .button_click,header .crash_button{position:absolute;top:21px;width:37px;height:37px;background-color:#46c1fa;border-radius:50%;background-position:0 -5px;background-image:url(../img/icons.png)}
+header .logo .logoend{color:#fff;padding:0 65px 0 0}
+header .crash_button{left:294px}
+header .button_click{left:96px;transform:scale(-1)}
+header .top-nav{display:inline-block}
+header .top-nav ul{margin:0 0 0 31px}
+header .top-nav ul li+li:before{content:"/"}
+header .top-nav ul li{float:left;display:inline-block}
+header .top-nav ul li:first-child{font-weight:700}
+header .top-nav ul li a{padding:7px;font-size:14px;color:#fff}
+header .top-right{display:inline-block;float:right;margin:25px 9px 0 0;font-size:14px}
+header .top-right .period{display:inline-block}
+header .top-right .days{display:inline-block;margin:0 0 0 18px;padding:4px 20px;background:#fff;color:#000}
+main section{float:left;background-color:#253340;color:#fff}
+main section .user{padding:0 26px 21px 0;background:linear-gradient(to top,#736d91 0,#736d91 29%,#4a868c 59%)}
+main section .user img{display:inline-block;margin:40px 0 18px 31px}
+main section .user h3{margin:-76px 11px 0 106px;font-size:21px}
+main section .user p{margin:3px 72px 27px 103px}
+main section h4{font-size:19px;padding:20px 30px}
+main section .dropdown{padding:13px 0 54px 30px;border-left:7px solid #46c1fa;background:#486e91;color:#fff}
+main section .dropdown .dash{height:1px}
+main section .dropdown .dash:before{height:35px;width:34px;content:'';background-position:-5px -38px;background-image:url(../img/icons.png);display:inline-block}
+main section .dropdown .dash .dash_title{font-size:14px;position:relative;top:-10px;left:13px;color:#fff}
+main section .dropdown .dash .dash_title:after{height:8px;width:17px;margin:0 0 0 101px;content:'';background-position:-20px -36px;display:inline-block;background-image:url(../img/refresh.png)}
+main section .dropdown .dropdown-menu{position:relative;top:53px;border:0;border-radius:0;padding:12px 82px;margin:0 0 80px -37px;background-color:#486e91}
+main section .dropdown .dropdown-menu a{line-height:2.4em;padding:0 0 0 26px;color:#fff;font-size:18px}
+main section .dropdown .dropdown-menu a:hover{background:#486e91}
+main section .dropdown .dropdown-menu a:before{border-radius:50%;border:2px solid #da6392;height:14px;width:13px;margin:-4px 10px 0 -22px;content:'';display:inline-block}
+main section .dropdown .dropdown-menu .drop_second:before{border:2px solid #46c1fa}
+main section .dropdown .dropdown-menu .drop_third:before{border:2px solid #ea6ef5}
+main section .dropdown .dropdown-menu .drop_last:before{border:2px solid #78b466}
+main section .side-nav .layouts{padding:31px 0 20px 38px}
+main section .side-nav .layouts:before{float:left;height:31px;width:35px;margin:-4px 19px 0 0;content:'';display:inline-block;background-position:-2px -72px;background-image:url(../img/icons.png)}
+main section .side-nav .message:before,main section .side-nav .pages:before{float:left;height:28px;width:35px;content:'';background-image:url(../img/icons.png);display:inline-block}
+main section .side-nav .pages{padding:52px 0 0 38px}
+main section .side-nav .pages:before{margin:-4px 20px 0 0;background-position:-3px -100px}
+main section .side-nav .message{display:inline-block;margin:66px 0 313px -37px}
+main section .side-nav .message:before{margin:-5px 16px 0 -16px;background-position:-4px -124px}
+main section .side-nav .message:after{float:right;font-size:11px;font-family:cursive;margin:-4px 0 0 -25px;content:'09';height:20px;line-height:1.7em;text-align:center;width:28px;background:#f16192;border:1px solid #f16192;border-radius:9px;display:inline-block}
+main section .side-nav .message .mes{margin:0 121px 0 0;font-weight:700}
+main .table-responsive{float:left;font-size:13px;margin:44px 0 0 39px;width:70%;text-align:center}
+main .table-responsive table{border:1px solid #ddd}
+main .table-responsive table tr td{border-top:none}
+main .table-responsive table tr:nth-child(2){border:1px solid #ddd}
+main .table-responsive table td:nth-child(4){font-weight:700}
+main .table-responsive table .tbl_gr{background:#fbfbfb;border-right:1px solid #ddd}
+main .table-responsive table .tbl_right ul{float:right}
+main .table-responsive table .tbl_right li{float:left;padding:0 4px}
+main .table-responsive table .tbl_right li .refresh{display:block;width:20px;height:16px;background-position:0 0;background-image:url(../img/refresh.png)}
+main .table-responsive table .tbl_right li .arrow{display:block;width:20px;height:16px;background-position:-17px 0;background-image:url(../img/refresh.png)}
+main .table-responsive table .tbl_right li .out{display:block;width:17px;height:16px;background-position:17px 0;background-image:url(../img/refresh.png)}
+#main_nav{position:relative;top:15px;margin-top:14px;margin-left:280px}
+#main_nav li{display:inline;padding:0 8px;border-left:1px dotted #8b6619;position:relative;z-index:2}
+#main_nav li:first-child,#main_nav ul li{border-left:none}
+#main_nav ul{display:none;position:absolute;top:19px;left:0;z-index:1;width:155px}
+#main_nav li a,#main_nav li ul li a{color:#8b6619;font-family:"Times New Roman",serif;font-size:.9em;font-weight:700;text-decoration:none;outline:0;padding-bottom:17px}
+#main_nav li a:active,#main_nav li ul a:active{color:#000}
+#crash_button,#main_nav li:active ul{display:block}
+@media (max-width:1180px){main .table-responsive{margin:44px 0 0 5px;width:48%}
+}
+@media (max-width:870px){header .top-right{float:inherit}
+}
+@media (max-width:620px){main section .side-nav .message{margin:66px 0 100px -37px}
+main .table-responsive{margin:5px;width:100%}
+}

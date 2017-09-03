@@ -1,0 +1,41 @@
+@charset "UTF-8";
+header .logo,header .top-nav,header .top-nav li{display:inline-block}
+@font-face{font-family:Lato;src:url(https://fonts.google.com/specimen/Lato);font-weight:400;font-style:normal}
+html body{font-size:16px;font-family:Lato,sans-serif}
+header{padding:0;background-color:#4a868c;color:#fff}
+header .logo{background-color:#253340;font-size:37px;padding:15px 124px 13px 32px}
+header .logo span{color:red}
+header .top-nav li{float:left;padding-right:42px;position:relative}
+header .top-nav li a{display:block;padding:10px;line-height:10px;font-size:14px;color:#fff}
+header .days,header .period,main section .user h3,main section .user p{display:inline-block}
+header .days{color:#000;background:#fff}
+main section{float:left;width:314px;background-color:#253340;color:#fff}
+main section .user{padding:27px 0 8px 44px;background:linear-gradient(to top,#736d91 0,#736d91 29%,#4a868c 59%)}
+main section .user img{display:inline-block;margin:12px 15px 0 -15px}
+main section .user h3{font-size:21px}
+main section .user p{position:relative;top:-29px;left:65px}
+main section h4{font-size:19px;margin:2px 28px -2px;line-height:4;text-transform:uppercase}
+main section .dash{background-color:#486e91;color:#fff}
+main section .dash img{width:20px}
+main section .dash .dash_short{display:block;padding:0 41px;line-height:5;font-size:14px;border-left:8px solid #46c1fa}
+main section .dash .dash_short:before{float:left;height:31px;width:34px;margin:18px 19px 0 -19px;content:'';display:inline-block;background-position:0 -21px;background-image:url(../img/icons.png)}
+main section .dash .dash_long{font-size:18px;padding:10px 0 5px 99px}
+main section .dash .dash_long li{line-height:2.3em}
+main section .dash .dash_long li:before{border:2px solid #000;font-size:10px;padding:0 7px 0 4px;margin:0 10px 0 -13px;content:"";border-radius:50%}
+main section .dash .dash_long li a{color:#fff}
+main section .side-nav{padding:27px 0 113px}
+main section .side-nav .layouts{margin-left:33px;line-height:2}
+main section .side-nav .layouts:before{float:left;height:31px;width:35px;margin-right:18px;content:'';display:inline-block;background-position:2px -49px;background-image:url(../img/icons.png)}
+main section .side-nav .message:before,main section .side-nav .pages:before{float:left;height:28px;width:35px;content:'';background-image:url(../img/icons.png);display:inline-block}
+main section .side-nav .pages{margin:36px 0 0 49px;line-height:2}
+main section .side-nav .pages:before{margin:3px 16px 0 -16px;background-position:2px -77px}
+main section .side-nav .message{line-height:2;display:inline-block;margin:37px 108px 0 52px}
+main section .side-nav .message:before{margin:0 16px 0 -16px;background-position:0 -101px}
+main section .side-nav .message:after{float:right;content:'09';height:19px;line-height:1.6em;text-align:center;width:28px;margin:7px 0 0 104px;border:1px solid #f16192;border-radius:10px;display:inline-block}
+#main_nav{position:relative;top:15px;margin-top:14px;margin-left:280px}
+#main_nav li{display:inline;padding:0 8px;border-left:1px dotted #8b6619;position:relative;z-index:2}
+#main_nav li:first-child,#main_nav ul li{border-left:none}
+#main_nav ul{display:none;position:absolute;top:19px;left:0;z-index:1;width:155px}
+#main_nav li a,#main_nav li ul li a{color:#8b6619;font-family:"Times New Roman",serif;font-size:.9em;font-weight:700;text-decoration:none;outline:0;padding-bottom:17px}
+#main_nav li a:active,#main_nav li ul a:active{color:#000}
+#main_nav li:active ul{display:block}
