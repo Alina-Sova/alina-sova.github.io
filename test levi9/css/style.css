@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    font-family: FontAwesome, sans-serif;
+}
+.accordion {
+    text-align: left;
+    border: 1px solid #a5a5af;
+    border-bottom: none;
+    list-style: none;
+    padding: 0;
+}
+.accordion-heading {
+    position: relative;
+    border-bottom: 1px solid #a5a5af;
+}
+.accordion-heading h3 {
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    line-height: normal;
+}
+.accordion-heading i {
+    position: absolute;
+    right: 11px;
+    top: 5px;
+    font-size: 35px;
+    cursor: pointer;
+    color: #a5a5af;
+}
+.active h3{
+    background: #518edc;
+}
+.active i{
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.accordion-content {
+    display: none;
+    padding: 10px;
+    border-bottom: 1px solid #a5a5af;
+}
+
+.pagePrev{
+    float: left;
+}
+.pageNext{
+    float: right;
+}
+input{
+    width:50px;
+}
