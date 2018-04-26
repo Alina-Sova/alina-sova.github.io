@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="style/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="js/script.js"></script>
+    <title>Test SynergyOne</title>
+</head>
+<body>
+    <div class="wrap">
+        <h1 class="helloMessage" id="helloMessage"></h1>
+        <a href="#" class="close"></a>
+        <header class="header">Log in to the Site</header>
+        <form action="" id="login">
+            <div class="container">
+                <div class="container_right">
+                    <label class="container_right_label" for="username">Login</label>
+                    <input class="container_right_input" type="text" name="username" id="username" required="required">
+
+                    <label class="container_right_label" for="password">Password</label>
+                    <input class="container_right_input" type="password" name="password" id="password" required="required">
+
+                    <label class="container_right_check">
+                        <input type="checkbox" checked="checked" name="remember" class="container_right_regular-checkbox" id="remember"> Remember me
+                    </label>
+                    <button type="submit" class="container_right_login" name="submit" value="Login">Log in</button>
+                    <a href="#" class="container_right_help">Need help logging in?</a>
+                 </div>
+                 <div class="container_left">
+                    <button type="submit" class="container_left_button facebook">Log in with Facebook</button>
+                    <button type="submit" class="container_left_button google">Log in with Google +</button>
+                 </div>
+            </div>
+        </form>
+        <footer class="footer">Dont Habe an account yet? <a href="#" class="footer__link">Sign up</a></footer>
+    </div>
+</body>
+</html>
+
